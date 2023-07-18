@@ -1,6 +1,15 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+import '@/lib/style/bootstrap.min.css'
+import '@/lib/style/elegant-icons.css'
+import '@/lib/style/font-awesome.min.css'
+import '@/lib/style/nice-select.css'
+import '@/lib/style/plyr.css'
+import '@/lib/style/owl.carousel.min.css'
+import '@/lib/style/slicknav.min.css'
+import '@/lib/style/style.css'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -14,4 +23,4 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}</body>
     </html>
   )
-}
+} 
