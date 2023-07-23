@@ -4,7 +4,7 @@ export default function ProductDetail(props) {
         <div className="anime__details__content">
             <div className="row">
                 <div className="col-lg-3">
-                    <div className="anime__details__pic set-bg" style={{"background-image": `url(img/anime/details-pic.jpg)`}}>
+                    <div className="anime__details__pic set-bg" style={{backgroundImage: `url(${img})`}}>
                         <div className="comment"><i className="fa fa-comments"></i> 11</div>
                         <div className="view"><i className="fa fa-eye"></i> 9141</div>
                     </div>

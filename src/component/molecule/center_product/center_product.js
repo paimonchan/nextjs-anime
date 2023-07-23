@@ -3,7 +3,7 @@ export default function CenterProduct(props) {
     return (
         <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="product__item">
-                <div className="product__item__pic set-bg" style={{"background-image": `url(${img})`}}>
+                <div className="product__item__pic set-bg" style={{backgroundImage: `url(${img})`}}>
                     <div className="ep">18 / 18</div>
                     <div className="comment">
                         <i className="fa fa-comments"></i> 11</div>
