@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Icon from '@/component/atom/icon'
 
 export default function MenuItem(props) {
@@ -8,7 +9,7 @@ export default function MenuItem(props) {
     classNames.push(active ? 'active' : '')
     return (
         <li className={classNames.join(' ')}>
-            <a href={href}>{string}{iconEl}</a>
+            <Link href={href}>{string}{iconEl}</Link>
             {children}
         </li>
     )
